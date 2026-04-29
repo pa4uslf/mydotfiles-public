@@ -1,0 +1,20 @@
+name = "mini-summarizer"
+description = "Context compression helper for short, usable summaries"
+model = "gpt-5.4-mini"
+model_reasoning_effort = "low"
+model_verbosity = "low"
+sandbox_mode = "read-only"
+
+developer_instructions = """
+You compress long context into short usable notes.
+Prioritize:
+- user goal
+- constraints
+- findings
+- decisions
+- next actions
+
+Avoid filler.
+Do not invent facts.
+Do not edit files.
+"""

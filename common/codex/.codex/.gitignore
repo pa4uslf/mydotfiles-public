@@ -1,0 +1,23 @@
+# secrets
+auth.json
+
+# runtime data
+history.jsonl
+session_index.jsonl
+log/
+sessions/
+tmp/
+shell_snapshots/
+state_*.sqlite*
+memories/
+rules/
+
+# local generated / backups
+*.bak*
+version.json
+.personality_migration
+migrations/
+
+# ~/.codex/skills 已与 dotfiles 脱钩，第三方与运行时 skills 保持本地目录，
+# 避免把安装产物和运行时变更带入仓库。
+skills/

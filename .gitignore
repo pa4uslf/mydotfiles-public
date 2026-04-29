@@ -1,0 +1,14 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+*.log
+*.tmp
+*.swp
+*~
+*.bak
+*.old
+.env
+.env.*
+.secrets
+__pycache__/
+*.py[cod]

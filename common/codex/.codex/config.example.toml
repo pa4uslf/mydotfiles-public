@@ -1,0 +1,25 @@
+# Public example only. Do not copy blindly into a live environment.
+
+model_provider = "openai"
+model = "gpt-5.5"
+model_reasoning_effort = "high"
+disable_response_storage = true
+web_search = "live"
+
+[features]
+apps = true
+multi_agent = true
+memories = true
+
+[memories]
+generate_memories = true
+use_memories = true
+no_memories_if_mcp_or_web_search = false
+
+[tui]
+theme = "gruvbox-dark"
+show_tooltips = false
+status_line = ["model-with-reasoning", "context-remaining", "session-id"]
+
+# Add local MCP servers and trusted projects only after reviewing what each
+# command can access.
